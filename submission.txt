@@ -1,0 +1,11 @@
+# Menjalankan skrip
+.\.env\Scripts\python main.py
+
+# Menjalankan unit test pada folder tests
+.\.env\Scripts\python.exe -m pytest tests/
+
+# Menjalankan test coverage pada folder tests
+.\.env\Scripts\python -m pytest tests/ --cov=utils --cov-report=term-missing -v
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1r43LCsyoSDnoZUAFl9cVXz3dFpAccycYBO4MVAR5-1g/edit?usp=sharing
